@@ -1,0 +1,5 @@
+E:\Наташа разработчик\2. Проба пера\C#DZ6\003\obj\Debug\net6.0\003.csproj.AssemblyReference.cache
+E:\Наташа разработчик\2. Проба пера\C#DZ6\003\obj\Debug\net6.0\003.GeneratedMSBuildEditorConfig.editorconfig
+E:\Наташа разработчик\2. Проба пера\C#DZ6\003\obj\Debug\net6.0\003.AssemblyInfoInputs.cache
+E:\Наташа разработчик\2. Проба пера\C#DZ6\003\obj\Debug\net6.0\003.AssemblyInfo.cs
+E:\Наташа разработчик\2. Проба пера\C#DZ6\003\obj\Debug\net6.0\003.csproj.CoreCompileInputs.cache
