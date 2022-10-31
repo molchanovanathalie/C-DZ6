@@ -1,7 +1,7 @@
 ﻿//Написать программу масштабирования фигуры
 // точка начала координат находится в точке пересечения диагоналей прямоугольника
 
-string Scaling (double x1, double y1, double x2, double y2,double x3, double y3,double x4, double y4, double k);
+string Scaling (double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4, double k);
 {
     x1 = x1 * k;
     y1 = y1 * k;
@@ -14,4 +14,4 @@ string Scaling (double x1, double y1, double x2, double y2,double x3, double y3,
     return $"(({x1},{y1}),({x2}, {y2}),({x3}, {y3}),({x4}, {y4}))";
    
 }
-Console.Write(Scaling(-1, -1, -1, 1, 1, 1 ,1, -1, 0.5));
+Console.Write(Scaling(-1, -1, -1, 1, 1, 1 ,1, -1, 1));
