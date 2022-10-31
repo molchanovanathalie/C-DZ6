@@ -1,7 +1,7 @@
 ﻿//Написать программу масштабирования фигуры
 // точка начала координат находится в точке пересечения диагоналей прямоугольника
 
-string Scaling (double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4, double k);
+string Scaling (int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4, int k);
 {
     x1 = x1 * k;
     y1 = y1 * k;
