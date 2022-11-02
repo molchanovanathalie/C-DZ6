@@ -3,8 +3,8 @@
 
 // (0,0) (2,0) (2,2) (0,2) 
 
-string Scaling(double x1, double y1, double x2, double y2, 
-double x3, double y3, double x4, double y4, double k)
+string Scaling(float x1, float y1, float x2, float y2, 
+float x3, float y3, float x4, float y4, float k)
 {
     x1 = x1 * k;
     y1 = y1 * k;
@@ -16,4 +16,6 @@ double x3, double y3, double x4, double y4, double k)
     y4 = y4 * k;
     return $"({x1}, {y1}) ({x2}, {y2}) ({x3}, {y3}) ({x4}, {y4})";
 }
-Console.WriteLine(Scaling(0, 0, 2, 0, 2, 2, 0, 2, 2));
+Console.WriteLine("Введите коэффициент: ");
+float k = float.Parse(Console.ReadLine() ?? "0");
+Console.WriteLine(Scaling(0, 0, 2, 0, 2, 2, 0, 2, k));
